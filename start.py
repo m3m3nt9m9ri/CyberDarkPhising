@@ -30,8 +30,8 @@ banner = """
             """
 print(banner)
 system = """
-1.Termux
-2.Kali Linux
+1.Kali Linux
+2.Termux
 """
 print(system)
 secim = int(input("Sisteminizi seçin: "))
