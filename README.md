@@ -1,4 +1,4 @@
-### Cyber Dark Phising TOOL (DEMO)
+### Cyber Dark Phising TOOL (v.0.2)
 
 
 ## Kali Linux
@@ -9,4 +9,13 @@
  
       cd CyberDarkPhising
  
-      python3 phsng.py
+      sudo chmod +x start.py
+
+      sudo python3 start.py
+
+
+## NGROK 
+
+      ngrok http 8000
+
+## NGROK verdiyi linki hedefe atin
