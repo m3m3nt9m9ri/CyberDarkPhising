@@ -41,7 +41,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_header('Content-type', 'text/html; charset=utf-8')
             self.end_headers()
 
-            with open('site/pmgame.html', 'r', encoding='utf-8') as file:
+            with open('pmgame.html', 'r', encoding='utf-8') as file:
                 content = file.read()
 
             self.wfile.write(content.encode('utf-8'))
